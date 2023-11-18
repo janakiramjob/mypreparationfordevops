@@ -1,0 +1,92 @@
+Ansible Basics:
+1.	What is Ansible, and how does it differ from other configuration management tools?
+2.	Explain the key components of Ansible.
+3.	What is an Ansible playbook?
+4.	How does Ansible handle inventory?
+5.	Describe the difference between Ansible modules and plugins.
+Playbooks:
+6.	How do you structure an Ansible playbook?
+7.	Explain the purpose of roles in Ansible and how they are organized.
+8.	What is the significance of the hosts and become keywords in a playbook?
+Modules and Tasks:
+9.	Give examples of Ansible modules and their use cases.
+10.	How do you pass variables to Ansible playbooks?
+11.	What is the difference between the command and shell modules?
+Variables and Facts:
+12.	Explain the difference between variable and fact in Ansible.
+13.	How can you override default variables in Ansible?
+14.	How do you use conditionals in Ansible playbooks?
+Handlers and Notifies:
+15.	What are handlers, and how are they used in Ansible?
+16.	Explain the purpose of the notify keyword in a playbook.
+Ansible Roles:
+17.	How do you create and use Ansible roles?
+18.	What is the structure of a typical Ansible role directory?
+Ansible Galaxy:
+19.	What is Ansible Galaxy, and how do you use it?
+20.	Explain the process of installing a role from Ansible Galaxy.
+Ansible Tower:
+21.	What is Ansible Tower, and what benefits does it provide?
+22.	How do you create and manage inventories in Ansible Tower?
+Troubleshooting:
+23.	How do you debug Ansible playbooks?
+24.	What is the purpose of the -vvv option in Ansible?
+Best Practices:
+25.	Explain some best practices for writing efficient and maintainable Ansible playbooks.
+26.	How can you secure sensitive information in Ansible playbooks?
+Integration:
+27.	How can Ansible be integrated with other tools or services?
+28.	Explain the use of Ansible with version control systems.
+Advanced Topics:
+29.	What is Ansible Vault, and how do you use it?
+30.	Describe dynamic inventories in Ansible and their advantages.
+Scenario-based Questions:
+31.	Given a scenario, how would you use Ansible to automate a specific task?
+These questions cover a range of topics related to Ansible and should provide a good assessment of a candidate's understanding and experience with the tool.
+ 
+2 / 2
+list out some more advanced questions on every use case in ansible
+ChatGPT
+Certainly! Let's dive into some more advanced Ansible questions for different use cases:
+Advanced Use Cases:
+1. Dynamic Inventory:
+•	How do you create a custom script for dynamic inventory in Ansible?
+•	Explain the use of dynamic inventory plugins in Ansible.
+•	How can you integrate Ansible with a cloud provider's dynamic inventory?
+2. Scaling and Performance:
+•	What strategies can you employ to scale Ansible for large deployments?
+•	Describe how to optimize Ansible playbooks for better performance.
+•	How can you parallelize task execution in Ansible?
+3. Security:
+•	Explain the role of Ansible Vault in securing sensitive data. Can you provide an example of using Ansible Vault in a playbook?
+•	Describe the best practices for securing Ansible control nodes.
+•	How do you manage SSH key distribution in Ansible securely?
+4. Integration and Extensibility:
+•	How can Ansible be integrated with Jenkins for continuous integration and continuous deployment (CI/CD)?
+•	Explain the use of Ansible Callback Plugins and provide an example.
+•	Describe the process of creating a custom Ansible module.
+5. Advanced Playbook Features:
+•	How can you use the block and rescue keywords in Ansible playbooks?
+•	Explain the purpose of the import_playbook and include_tasks directives.
+•	Describe how to use Ansible tags for selective playbook execution.
+6. Containerization and Orchestration:
+•	How can Ansible be used with Docker for container orchestration?
+•	Describe the integration of Ansible with Kubernetes for managing containerized applications.
+•	Explain the use of Ansible Container for building and deploying container images.
+7. Network Automation:
+•	How does Ansible support network automation tasks?
+•	Describe the Ansible modules and features specific to network device configuration.
+•	How can you use Ansible to automate the deployment of network infrastructure?
+8. Windows Automation:
+•	Explain the challenges and solutions for using Ansible to manage Windows servers.
+•	Describe the Ansible modules available for Windows automation.
+•	How do you handle differences in syntax and behavior between Linux and Windows in Ansible playbooks?
+9. Logging and Monitoring:
+•	How can you configure logging for Ansible playbooks?
+•	Describe the integration of Ansible with monitoring tools for tracking playbook execution.
+•	Explain how to generate custom reports based on Ansible playbook results.
+10. High Availability and Disaster Recovery:
+•	Describe how Ansible can be used for configuring high availability setups.
+•	How do you implement a disaster recovery plan using Ansible?
+•	Explain the role of Ansible in maintaining system reliability.
+
