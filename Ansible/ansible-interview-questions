@@ -1,0 +1,11 @@
+1. what is ansible. components of ansible.
+2. what is inventory file. types of inventory files in ansible.
+3. what is dynamic inventory. how to configure that?
+4. what is a role. how it's used. what is the structure of role.
+5. what is a playbook.
+6. what is task in a playbook.
+7. what is modules. how it's used. types of modules.
+8. define custom modules.
+9. what is ansible galaxy.
+10. what is ansible tower.
+11. 
